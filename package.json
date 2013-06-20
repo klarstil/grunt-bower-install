@@ -1,5 +1,5 @@
 {
-  "name": "grunt-bower-install",
+  "name": "grunt-bower-install-shopware",
   "description": "Inject your Bower dependencies right into your HTML from Grunt.",
   "version": "0.2.1",
   "homepage": "http://stephenplusplus.github.io/grunt-bower-install",
