@@ -29,7 +29,7 @@ var replace = function (match, startBlock, spacing, oldScripts, endBlock) {
   var html = startBlock;
 
   globalDependenciesSorted.forEach(function (path) {
-    html += spacing + '<script src="' + path.replace(ignorePath, '') + '"></script>';
+    html += spacing + '<script src="{link file="' + path.replace(ignorePath, '') + '"}"></script>';
   });
 
   return html += spacing + endBlock;

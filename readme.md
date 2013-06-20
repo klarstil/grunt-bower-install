@@ -21,12 +21,12 @@ _**do note**: Bower is still a young little birdy, so things are changing rapidl
 
 To install the module:
 ```
-npm install grunt-bower-install --save-dev
+npm install grunt-bower-install-shopware --save-dev
 ```
 
 Include the task in your Gruntfile:
 ```js
-grunt.loadNpmTasks('grunt-bower-install');
+grunt.loadNpmTasks('grunt-bower-install-shopware');
 ```
 
 Create a config block within your Gruntfile:
